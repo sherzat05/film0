@@ -1,0 +1,36 @@
+.header {
+	background: #032541;
+	padding: 11px 0;
+	height: 65px;
+	&--container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&--navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 30px;
+		
+		&__link {
+			transition: all 0.55s cubic-bezier(0.215, 0.61, 0.355, 1),
+				border-radius 0.1ms;
+			color: white;
+			font-size: 15px;
+			padding: 6px 12px;
+		}
+	}
+	&--search {
+		display: flex;
+		align-items: center;
+		gap: 17px;
+		input {
+			border: 2px solid #05b4e3;
+			padding: 6px 18px;
+			border-radius: 10px;
+			color: white;
+			font-size: 18px;
+		}
+	}
+}
